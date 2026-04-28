@@ -14,7 +14,7 @@ const PROJECTS = [
   {
     key: 'booking',
     url: null,
-    tech: ['Node.js', 'WhatsApp Business API', 'LLM Tool Use', 'React'],
+    tech: ['ASP.NET Core', 'WhatsApp Business API', 'LLM Tool Use', 'React'],
     gradientFrom: '#0EA5A4',
     gradientTo: '#1A2F6F',
   },

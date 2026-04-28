@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
-import { useRouter, usePathname } from '@/i18n/navigation';
+import { Link, useRouter, usePathname } from '@/i18n/navigation';
 import { AnimatePresence, motion } from 'framer-motion';
 
 const LOCALES = [
@@ -13,10 +13,10 @@ const LOCALES = [
 ];
 
 const NAV_LINKS = [
-  { key: 'services', href: '#services' },
-  { key: 'projects', href: '#projects' },
-  { key: 'whyMe', href: '#why-me' },
-  { key: 'contact', href: '#contact' },
+  { key: 'services', href: '/#services' },
+  { key: 'projects', href: '/#projects' },
+  { key: 'whyMe', href: '/#why-me' },
+  { key: 'contact', href: '/#contact' },
 ] as const;
 
 export default function Navbar() {
@@ -62,7 +62,7 @@ export default function Navbar() {
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="flex-shrink-0">
+        <Link href="/" className="flex-shrink-0">
           <Image
             src="/images/logo-full.png"
             alt="Ahmet Builds"
@@ -71,18 +71,18 @@ export default function Navbar() {
             className="h-9 w-auto object-contain"
             priority
           />
-        </a>
+        </Link>
 
         {/* Desktop nav links */}
         <ul className="hidden md:flex items-center gap-8">
           {NAV_LINKS.map(({ key, href }) => (
             <li key={key}>
-              <a
+              <Link
                 href={href}
                 className="text-sand/70 hover:text-white text-sm font-medium transition-colors duration-200"
               >
                 {t(key)}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
@@ -161,13 +161,13 @@ export default function Navbar() {
             <ul className="px-4 py-4 flex flex-col gap-1">
               {NAV_LINKS.map(({ key, href }) => (
                 <li key={key}>
-                  <a
+                  <Link
                     href={href}
                     onClick={() => setMobileOpen(false)}
                     className="block py-3 text-sand/80 hover:text-white text-base font-medium transition-colors border-b border-white/5 last:border-0"
                   >
                     {t(key)}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>

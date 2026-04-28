@@ -2,13 +2,14 @@
 
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 
 const SOCIAL_LINKS = [
   { name: 'Instagram', href: 'https://instagram.com/ahmet.builds' },
   { name: 'TikTok', href: 'https://tiktok.com/@ahmet.builds' },
-  { name: 'YouTube', href: 'https://youtube.com/@ahmetbuilds' },
+  { name: 'YouTube', href: 'https://youtube.com/@ahmet.builds' },
   { name: 'Facebook', href: 'https://facebook.com/ahmet.builds' },
-  { name: 'LinkedIn', href: 'https://linkedin.com/in/ahmet-builds' },
+  { name: 'LinkedIn', href: 'https://linkedin.com/company/ahmet-builds' },
 ];
 
 export default function Footer() {
@@ -50,8 +51,14 @@ export default function Footer() {
           {/* Divider */}
           <div className="w-full max-w-xs h-px bg-white/8" />
 
-          {/* Copyright */}
-          <p className="text-sand/30 text-xs">{t('copyright')}</p>
+          {/* Bottom row: copyright + privacy link */}
+          <div className="flex flex-col sm:flex-row items-center gap-3 text-xs text-sand/30">
+            <p>{t('copyright')}</p>
+            <span className="hidden sm:inline">·</span>
+            <Link href="/privacy" className="hover:text-teal transition-colors duration-200">
+              Privacy Policy
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
