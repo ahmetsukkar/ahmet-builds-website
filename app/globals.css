@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@theme {
+  --color-teal: #0EA5A4;
+  --color-ink: #0F172A;
+  --color-sand: #E7E5E4;
+  --color-navy: #1A2F6F;
+
+  --font-heading: var(--font-space-grotesk), 'Space Grotesk', sans-serif;
+  --font-body: var(--font-inter), 'Inter', sans-serif;
+  --font-arabic: var(--font-noto-arabic), 'Noto Sans Arabic', sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-ink);
+    color: var(--color-sand);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+    color: #ffffff;
+  }
+
+  [lang='ar'] body,
+  [lang='ar'] h1,
+  [lang='ar'] h2,
+  [lang='ar'] h3,
+  [lang='ar'] h4,
+  [lang='ar'] h5,
+  [lang='ar'] h6,
+  [lang='ar'] p,
+  [lang='ar'] span,
+  [lang='ar'] a,
+  [lang='ar'] button,
+  [lang='ar'] input,
+  [lang='ar'] textarea {
+    font-family: var(--font-arabic);
+  }
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.animate-gradient {
+  background: linear-gradient(
+    -45deg,
+    #0f172a,
+    #1a2f6f,
+    #0ea5a4,
+    #0f172a,
+    #1a2f6f
+  );
+  background-size: 400% 400%;
+  animation: gradientShift 18s ease infinite;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}

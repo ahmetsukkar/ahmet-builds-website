@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Ahmet Builds — Kıdemli Yazılım Mühendisi ve Serbest Geliştirici",
+    "description": "Özel yazılım geliştirme — web uygulamaları, yapay zeka ajanları, SaaS ürünleri ve API'ler — Arap dünyası, Türkiye ve ötesindeki işletmeler için."
+  },
+  "nav": {
+    "services": "Hizmetler",
+    "projects": "Projeler",
+    "whyMe": "Neden Ben",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "headline": "Fikirden ürüne.",
+    "subheading": "Arap dünyası, Türkiye ve ötesindeki işletmeler için özel yazılımlar geliştiriyorum — web uygulamaları, yapay zeka ajanları, SaaS ürünleri ve API'ler.",
+    "cta1": "Birlikte Çalışalım",
+    "cta2": "Çalışmalarımı Gör"
+  },
+  "services": {
+    "title": "Ne İnşa Ediyorum",
+    "webApps": {
+      "title": "Web Uygulamaları ve Sistemler",
+      "description": "Gerçek kullanıcıları ve gerçek trafiği kaldıracak şekilde tasarlanmış hızlı, ölçeklenebilir web uygulamaları."
+    },
+    "aiAssistants": {
+      "title": "Ajantik Yapay Zeka Asistanları",
+      "description": "LLM destekli WhatsApp ve sohbet otomasyonu — 7/24 çalışır ve gerçekten faydalıdır."
+    },
+    "saas": {
+      "title": "SaaS Ürünleri",
+      "description": "Kimlik doğrulama, faturalandırma, panolar ve her şeyi kapsayan uçtan uca SaaS platformları."
+    },
+    "apis": {
+      "title": "REST API ve Backend Sistemler",
+      "description": "Ekibinizin üzerine inşa edebileceği güvenilir API'ler. İyi belgelenmiş, iyi test edilmiş."
+    },
+    "dashboards": {
+      "title": "Yönetim Panelleri",
+      "description": "Ekibinize geliştirici gerektirmeden operasyonlar üzerinde kontrol sağlayan dahili araçlar."
+    },
+    "automation": {
+      "title": "Yapay Zeka Destekli Otomasyon",
+      "description": "Araçlarınızı bağlayın ve tekrarlayan işleri otomatikleştirin, ekibiniz önemli olana odaklanabilsin."
+    }
+  },
+  "projects": {
+    "title": "Öne Çıkan Projeler",
+    "liveLink": "Canlı Site",
+    "voxai": {
+      "name": "VoxAIStudio",
+      "description": "Yapay zeka destekli ses üretimi SaaS platformu. Stüdyo kalitesinde ses sentezi ve temiz bir ürün deneyimi."
+    },
+    "booking": {
+      "name": "Ajantik Rezervasyon Asistanı",
+      "description": "Müşteri hizmetleri ve randevu yönetimi için WhatsApp tabanlı bir yapay zeka ajanı. Rezervasyonları, iptalleri ve sorguları otomatik olarak yönetir. Oto servisler, klinikler, kuaförler ve daha fazlası için tasarlandı."
+    }
+  },
+  "whyMe": {
+    "title": "Neden Benimle Çalışmalısınız",
+    "depth": {
+      "title": "Teknik Derinlik",
+      "description": "Full stack, yapay zeka ve sistem tasarımında üst düzey mühendislik."
+    },
+    "ship": {
+      "title": "Teslimat Odaklı",
+      "description": "Çalışan ve yayınlanan şeyler inşa ediyorum. Teslimat sonradan düşünülen bir şey değil."
+    },
+    "multilingual": {
+      "title": "Çok Dilli",
+      "description": "Arapça, İngilizce ve Türkçe — engelsiz iletişim."
+    },
+    "iterative": {
+      "title": "İteratif",
+      "description": "İnşa et, test et, geliştir, tekrarla. Geri bildiriminiz ürünü şekillendirir."
+    }
+  },
+  "testimonials": {
+    "title": "Müşteriler Ne Diyor",
+    "comingSoon": "Yakında",
+    "placeholder": "Referans alanı rezerve edildi."
+  },
+  "contact": {
+    "title": "Birlikte Bir Şey İnşa Edelim",
+    "subtitle": "Fikrinizi ürüne dönüştürmeye hazır mısınız? Konuşalım.",
+    "whatsapp": "WhatsApp'ta Yaz",
+    "formName": "Adınız",
+    "formEmail": "E-posta Adresiniz",
+    "formMessage": "Projeniz hakkında bilgi verin",
+    "formSubmit": "Mesaj Gönder"
+  },
+  "footer": {
+    "tagline": "Fikirden ürüne.",
+    "copyright": "© 2026 Ahmet Builds. Tüm hakları saklıdır."
+  }
+}

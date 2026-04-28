@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Ahmet Builds — Senior Software Engineer & Freelance Developer",
+    "description": "Custom software development — web apps, AI agents, SaaS products, and APIs — for businesses across the Arab world, Turkey, and beyond."
+  },
+  "nav": {
+    "services": "Services",
+    "projects": "Projects",
+    "whyMe": "Why Me",
+    "contact": "Contact"
+  },
+  "hero": {
+    "headline": "From idea to product.",
+    "subheading": "I build custom software — web apps, AI agents, SaaS products, and APIs — for businesses across the Arab world, Turkey, and beyond.",
+    "cta1": "Let's Work Together",
+    "cta2": "View My Work"
+  },
+  "services": {
+    "title": "What I Build",
+    "webApps": {
+      "title": "Web Applications & Systems",
+      "description": "Fast, scalable web applications built to handle real users and real traffic."
+    },
+    "aiAssistants": {
+      "title": "Agentic AI Assistants",
+      "description": "WhatsApp and chat automation powered by LLMs — available 24/7 and actually useful."
+    },
+    "saas": {
+      "title": "SaaS Products",
+      "description": "End-to-end SaaS platforms with auth, billing, dashboards, and everything in between."
+    },
+    "apis": {
+      "title": "REST APIs & Backend Systems",
+      "description": "Reliable APIs your team can build on top of. Well-documented, well-tested."
+    },
+    "dashboards": {
+      "title": "Admin Dashboards & Panels",
+      "description": "Internal tools that give your team control over operations without a developer."
+    },
+    "automation": {
+      "title": "AI-Powered Automation",
+      "description": "Connect your tools and automate the repetitive work so your team can focus on what matters."
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "liveLink": "Live Site",
+    "voxai": {
+      "name": "VoxAIStudio",
+      "description": "AI voice generation SaaS platform. Studio-quality voice synthesis with a clean product experience."
+    },
+    "booking": {
+      "name": "Agentic Booking Assistant",
+      "description": "A WhatsApp-native AI agent for customer service and appointment management. Handles bookings, cancellations, and inquiries automatically. Designed for any service business — auto workshops, clinics, salons, and more."
+    }
+  },
+  "whyMe": {
+    "title": "Why Work With Me",
+    "depth": {
+      "title": "Technical Depth",
+      "description": "Senior-level engineering across full stack, AI, and systems design."
+    },
+    "ship": {
+      "title": "Ship-Focused",
+      "description": "I build things that work and go live. Delivery is not an afterthought."
+    },
+    "multilingual": {
+      "title": "Multilingual",
+      "description": "Arabic, English, and Turkish — communication without barriers."
+    },
+    "iterative": {
+      "title": "Iterative",
+      "description": "Build, test, improve, repeat. Your feedback shapes the product."
+    }
+  },
+  "testimonials": {
+    "title": "What Clients Say",
+    "comingSoon": "Coming Soon",
+    "placeholder": "This space is reserved for a client testimonial."
+  },
+  "contact": {
+    "title": "Let's Build Something",
+    "subtitle": "Ready to turn your idea into a product? Let's talk.",
+    "whatsapp": "Chat on WhatsApp",
+    "formName": "Your Name",
+    "formEmail": "Your Email",
+    "formMessage": "Tell me about your project",
+    "formSubmit": "Send Message"
+  },
+  "footer": {
+    "tagline": "From idea to product.",
+    "copyright": "© 2026 Ahmet Builds. All rights reserved."
+  }
+}
