@@ -56,8 +56,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       shortcut: '/images/logo-icon.png',
     },
     alternates: {
-      canonical: '/',
-      languages: { en: '/en', ar: '/ar', tr: '/tr' },
+      canonical: 'https://ahmetbuilds.com',
     },
     other: {
       'facebook-domain-verification': '950kzuo0e2d2brmsawzsr9v8r1bdgw',
