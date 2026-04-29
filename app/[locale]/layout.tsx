@@ -59,6 +59,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: '/',
       languages: { en: '/en', ar: '/ar', tr: '/tr' },
     },
+    other: {
+      'facebook-domain-verification': '950kzuo0e2d2brmsawzsr9v8r1bdgw',
+    },
   };
 }
 
